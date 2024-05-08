@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 
 class AppTheme{
-  static ThemeData getTheme() {
+
+  final bool colorThema ;
+
+  AppTheme({required this.colorThema});
+
+  ThemeData getTheme() {
     return ThemeData(
-      brightness: Brightness.dark
+      brightness: colorThema ? Brightness.dark : Brightness.light,
     );
   }
   

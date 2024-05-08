@@ -1,3 +1,4 @@
+export 'package:widget_all/presentation/screens/counter/counter_screen.dart';
 export 'package:widget_all/presentation/screens/infinity/infinity_screen.dart';
 export 'package:widget_all/presentation/screens/control/control_screen.dart';
 export 'package:widget_all/presentation/screens/button/button_screen.dart';

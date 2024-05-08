@@ -50,5 +50,11 @@ const appMenuItem = <MenuItems>[
     subtitle: "Esto es un scroll infinito",
     link: "/infinity",
     icon: Icons.add_reaction_sharp,
+  ),
+    MenuItems(
+    title: "Counter",
+    subtitle: "Counter Provider",
+    link: "/counter",
+    icon: Icons.airplane_ticket_outlined,
   )
 ];
